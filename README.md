@@ -1,2 +1,2 @@
 # Practice
-some react app development practices
+some web development practices
