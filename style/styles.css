@@ -2,6 +2,17 @@
     padding: 25px;
     background-color: blanchedalmond;
     display: flex;
+    gap: 30px;
+    /* justify-content: space-around;  (Half gap from front and back and between double gap)*/
+    /* justify-content: space-between; (NO Gap in front and back) */
+    /* justify-content: space-evenly; Equally Distributed gap */
+    justify-content: space-between;
+    height: 350px;
+    /* align-items: stretch; (For stretch the property according to the parent in Y axis) */
+    /* align-items: center; (For center the property in Y axis)  */
+    flex-direction: row;
+    /* flex-wrap: wrap; (To wrap the properties and contain them into the webpage) */
+    flex-wrap: wrap;
 }
 .child {
     border: 2px solid rgb(15, 158, 160);
@@ -9,6 +20,4 @@
     padding: 20px;
     font-size: 28px;
     margin: 10px 0;
-    /* for inline */
-    /* display: inline; */
 }
